@@ -28,7 +28,7 @@ while True:
             print("Su lista esta vacia, no puede eliminar nada")
 
         else:
-            eliminar = input("Escriba el indice del articulo que desea eliminar:")
+            eliminar = int(input("Escriba el indice del articulo que desea eliminar:"))
             lista_compra.pop(eliminar)
 
     if opcion_menu == 3:
@@ -37,13 +37,13 @@ while True:
         input("Precione enter")
 
     if opcion_menu ==4:
-        lista_compra.clear
+        lista_compra.clear()
 
     if opcion_menu ==5:
         print("Gracias por venir, vuelva pronto!")
         break    
 
-print("Digite un numero (1-5)")
+
 
 
 
